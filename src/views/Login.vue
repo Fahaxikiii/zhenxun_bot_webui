@@ -92,7 +92,7 @@ export default {
 .loginContainer {
   border-radius: 15px;
   background-clip: padding-box;
-  margin: 400px auto;
+  margin: 15% auto;
   width: 350px;
   padding: 15px 35px 15px 35px;
   background: #fff;

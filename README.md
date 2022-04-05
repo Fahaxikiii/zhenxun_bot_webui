@@ -3,7 +3,7 @@
 ## 前后端分离配置修改
 
 * 在真寻目录下，修改`~/.env.dev`文件，将 `HOST = 127.0.0.1` 修改为 `HOST = 0.0.0.0` ，并在安全组和防火墙打开相应的端口
-* 修改插件~/plugins/web_ui文件，修改`origins = ["http://localhost"]`为`origins = ["*"]`，亦或者`origins = ["你的真寻web自定义域名"]`
+* 修改插件 `~/plugins/web_ui/config.py` 文件，修改`origins = ["http://localhost"]`为`origins = ["*"]`，亦或者`origins = ["你的真寻web自定义域名"]`
 
 ## 在 Vercel 中部署
 

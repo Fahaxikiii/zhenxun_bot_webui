@@ -7,6 +7,8 @@
 
 ## 在 Vercel 中部署
 
+* `fork`本项目，然后进入自己的项目中
+
 * 进入 `vercel.json` 文件内，将 `${zhenxun_URL}` 改成你的真寻的公网ip加端口。eg: `http://127.0.0.1:8080`
 
 * 之后直接在 Vercel 中选择部署即可

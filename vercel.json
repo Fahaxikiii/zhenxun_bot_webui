@@ -2,6 +2,6 @@
     "version": 2,
     "routes": [{
         "src": "/webui/(.*)",
-        "dest": "${zhenxun_URL}/webui/$1"
+        "dest": "http://101.43.17.147:8081/webui/$1"
     }]
 }
